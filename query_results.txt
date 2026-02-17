@@ -1,0 +1,339 @@
+================================================================================
+GLSI Query Results Demo
+Generated: 2026-02-17 07:41:28
+================================================================================
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  QUERY 1: "what is the MCP protocol model context protocol"               ║
+║  Engine: DuckDuckGo | Results requested: 3                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+## https://modelcontextprotocol.io/docs/getting-started/intro
+
+MCP (Model Context Protocol) is an open-source standard for connecting AI applications to external systems.
+Using MCP, AI applications like Claude or ChatGPT can connect to data sources (e.g. local files, databases), tools (e.g. search engines, calculators) and workflows (e.g. specialized prompts)ΓÇöenabling them to access key information and perform tasks.
+Think of MCP like a USB-C port for AI applications. Just as USB-C provides a standardized way to connect electronic devices, MCP provides a standardized way to connect AI applications to external systems.
+What can MCP enable?
+
+Agents can access your Google Calendar and Notion, acting as a more personalized AI assistant.
+Claude Code can generate an entire web app using a Figma design.
+Enterprise chatbots can connect to multiple databases across an organization, empowering users to analyze data using chat.
+AI models can create 3D designs on Blender and print them out using a 3D printer.
+
+Why does MCP matter?
+Depending on where you sit in the ecosystem, MCP can have a range of benefits.
+Developers: MCP reduces development time and complexity when building, or integrating with, an AI application or agent.
+AI applications or agents: MCP provides access to an ecosystem of data sources, tools and apps which will enhance capabilities and improve the end-user experience.
+End-users: MCP results in more capable AI applications or agents which can access your data and take actions on your behalf when necessary.
+
+Start Building
+
+Learn more
+
+---
+
+## https://en.wikipedia.org/wiki/Model_Context_Protocol
+
+From Wikipedia, the free encyclopedia
+					
+Model Context ProtocolDeveloped byAnthropicIntroducedNovember┬á25, 2024; 14 months agoIndustryArtificial intelligenceConnector typeTypeScriptPythonJavaKotlinC#GoPHPPerlRubyRustSwiftWebsitemodelcontextprotocol.io 
+Relationship between MCP client and server
+The Model Context Protocol (MCP) is an open standard and open-source framework introduced by Anthropic in November 2024 to standardize the way artificial intelligence (AI) systems like large language models (LLMs) integrate and share data with external tools, systems, and data sources.[1] MCP provides a universal interface for reading files, executing functions, and handling contextual prompts.[2] Following its announcement, the protocol was adopted by major AI providers, including OpenAI and Google DeepMind.[3][4]
+
+
+
+MCP was announced by Anthropic in November 2024 as an open standard[5] for connecting AI assistants to data systems such as content repositories, business management tools, and development environments.[6] It aims to address the challenge of information silos and legacy systems.[6] Before MCP, developers often had to build custom connectors for each data source or tool, resulting in what Anthropic described as an "N├ùM" data integration problem.[6][non-primary source needed]
+Earlier stop-gap approachesΓÇösuch as OpenAI's 2023 "function-calling" API and the ChatGPT plug-in frameworkΓÇösolved similar problems but required vendor-specific connectors.[7] MCP re-uses the message-flow ideas of the Language Server Protocol (LSP) and is transported over JSON-RPC 2.0.[8]
+In December 2025, Anthropic donated the MCP to the Agentic AI Foundation (AAIF), a directed fund under the Linux Foundation, co-founded by Anthropic, Block and OpenAI, with support from other companies.[9]
+
+
+The protocol was released with software development kits (SDKs) in programming languages including Python, TypeScript, C# and Java.[8][10] Anthropic maintains an open-source repository of reference MCP server implementations for enterprise systems.[citation needed]
+MCP defines a standardized framework for integrating AI systems with external data sources and tools.[2] It includes specifications for data ingestion and transformation, contextual metadata tagging, and AI interoperability across different platforms. The protocol also supports bidirectional connections between data sources and AI tools.[6][non-primary source needed]
+MCP enables applications such as querying structured databases with plain language in the field of natural language data access.[8]
+The protocol is used in AI-assisted software development tools. Integrated development environments (IDEs), coding platforms such as Replit, and code intelligence tools like Sourcegraph have adopted MCP to grant AI coding assistants real-time access to project context.[5]
+
+
+In March 2025, OpenAI officially adopted the MCP, after having integrated the standard across its products, including the ChatGPT desktop app.[3][2]
+MCP can be integrated with Microsoft Semantic Kernel,[11] and Azure OpenAI.[12] MCP servers can be deployed to Cloudflare.[13][non-primary source needed]
+
+
+The Verge reported that MCP addresses a growing demand for AI agents that are contextually aware and capable of pulling from diverse sources.[5] The protocol's rapid uptake by OpenAI, Google DeepMind, and toolmakers like Zed and Sourcegraph suggests growing consensus around its utility.[3][14]
+In April 2025, security researchers released an analysis that concluded there are multiple outstanding security issues with MCP, including prompt injection,[15] tool permissions that allow for combining tools to exfiltrate data,[16] and lookalike tools that can silently replace trusted ones.[17]
+It has been likened to OpenAPI, a similar specification that aims to describe APIs.[18][19]
+
+
+AI governance┬áΓÇô Guidelines and laws to regulate AI
+Application programming interface┬áΓÇô Connection between computers or programs
+LangChain┬áΓÇô Language model application development framework
+Machine learning┬áΓÇô Study of algorithms that improve automatically through experience
+Software agent┬áΓÇô Computer program acting for a user
+
+
+^ David, Emilia (November 25, 2024). "Anthropic releases Model Context Protocol to standardize AI-data integration". VentureBeat. Retrieved 2025-05-12.
+
+^ a b c Kumar, Vinay (March 26, 2025). "The open source Model Context Protocol was just updated ΓÇö here's why it's a big deal". VentureBeat. Retrieved 2025-05-12.
+
+^ a b c Wiggers, Kyle (March 25, 2025). "OpenAI adopts rival Anthropic's standard for connecting AI models to data". TechCrunch.
+
+^ Wiggers, Kyle (April 9, 2025). "Google to embrace Anthropic's standard for connecting AI models to data". TechCrunch. Retrieved 2025-05-12.
+
+^ a b c Roth, Emma (November 25, 2024). "Anthropic launches tool to connect AI systems directly to datasets". The Verge.
+
+^ a b c d "Introducing the Model Context Protocol". Anthropic. November 25, 2024. Retrieved 2025-05-12.
+
+^ Edwards, Benj (1 April 2025). "MCP: The new "USB-C for AI" that's bringing fierce rivals together". Ars Technica. Retrieved 2025-05-24.
+
+^ a b c Ouellette, Michael (2025-05-09). "Model context protocol: the next big step in generating value from AI". Engineering.com. Retrieved 2025-06-23.
+
+^ Bellan, Rebecca (2025-12-09). "OpenAI, Anthropic, and Block join new Linux Foundation effort to standardize the AI agent era". TechCrunch. Retrieved 2025-12-10.
+
+^ "Model Context Protocol". GitHub. Retrieved 2025-06-20.
+
+^  Wallace, Mark (March 5, 2025). "Integrating Model Context Protocol Tools with Semantic Kernel: A Step-by-Step Guide". Semantic Kernel Dev Blog, Microsoft. Retrieved 2025-05-12.
+
+^  mrajguru (March 16, 2025). "Model Context Protocol (MCP): Integrating Azure OpenAI for Enhanced Tool Integration and Prompting". AI - Azure AI services Blog, Microsoft. Retrieved 2025-05-12.
+
+^ Brendan Irvine-Broque; Dina Kozlov; Glen Maddern (March 25, 2025). "Build and deploy Remote Model Context Protocol (MCP) servers to Cloudflare". Cloudflare. Retrieved 2025-05-12.
+
+^ Sha, Arjun (April 14, 2025). "What is Model Context Protocol (MCP) Explained". Beebom.com.
+
+^ Lakshmanan, Ravie (30 April 2025). "Researchers Demonstrate How MCP Prompt Injection Can Be Used for Both Attack and Defense". thehackernews.com.
+
+^ Beurer-Kellner, Luca; Fischer, Marc (1 April 2025). "MCP Security Notification: Tool Poisoning Attacks". InvariantLabs.
+
+^ Schulz, Kasimir; Martin, Jason; Kan, Marcus; Yeung, Kenneth; McCauley, Conor; Ring, Leo (10 April 2025). "MCP: Model Context Pitfalls in an Agentic World". hiddenlayer.com.
+
+^ MacManus, Richard (13 March 2025). "MCP: The Missing Link Between AI Agents and APIs". The New Stack. Retrieved 29 May 2025.
+
+^ Fanelli, Alessio. "Why MCP Won". www.latent.space. Retrieved 29 May 2025.
+
+
+
+Hou, Xinyi; Zhao, Yanjie; Wang, Shenao; Wang, Haoyu (2025). "Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions". arXiv:2503.23278 [cs.CR].
+Edwards, Benj (April 1, 2025). "MCP: The new "USB-C for AI" that's bringing fierce rivals together". Ars Technica.
+Jackson, Fiona (March 28, 2025). "OpenAI Agents Now Support Rival Anthropic's Protocol, Making Data Access 'Simpler, More Reliable'". TechRepublic.
+
+Official website 
+modelcontextprotocol on GitHub
+
+
+================================================================================
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║  QUERY 2: "golang concurrency goroutines tutorial"                        ║
+║  Engine: DuckDuckGo | Results requested: 3                                ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+## https://go.dev/tour/concurrency/1
+
+A Tour of Go
+
+---
+
+## https://www.tutorialpedia.org/golang-tutorial/understanding-goroutines-and-channels-a-golang-concurrency-tutorial/
+
+Concurrency is a crucial aspect of modern programming, allowing applications to perform multiple tasks simultaneously. In the Go programming language, goroutines and channels are powerful features that make it easy to write concurrent programs. Goroutines are lightweight threads of execution, and channels are used for communication and synchronization between goroutines. This tutorial will provide a comprehensive guide to understanding and using goroutines and channels in Go.
+Table of Contents
+
+Fundamental Concepts
+
+Goroutines
+Channels
+
+
+Usage Methods
+
+Creating and Running Goroutines
+Working with Channels
+
+
+Common Practices
+
+Producer - Consumer Pattern
+Fan - In and Fan - Out Patterns
+
+
+Best Practices
+
+Error Handling in Goroutines
+Channel Closure and Iteration
+
+
+Conclusion
+References
+
+Fundamental Concepts
+Goroutines
+A goroutine is a lightweight thread of execution managed by the Go runtime. Unlike traditional threads, goroutines have a very small memory footprint (typically 2KB of stack space initially) and can be created in large numbers without exhausting system resources. Goroutines are multiplexed onto a smaller number of operating system threads, which allows the Go runtime to efficiently manage concurrent execution.
+Channels
+Channels are typed conduits through which you can send and receive values with the type - safe <- operator. They provide a way for goroutines to communicate and synchronize with each other. Channels can be used to pass data between goroutines, ensuring that data is safely shared and preventing race conditions.
+Usage Methods
+Creating and Running Goroutines
+To create a goroutine, you simply prefix a function call with the go keyword. Here is a simple example:
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func printNumbers() {
+    for i := 0; i < 5; i++ {
+        time.Sleep(100 * time.Millisecond)
+        fmt.Println(i)
+    }
+}
+
+func main() {
+    go printNumbers()
+    // Do other work in the main goroutine
+    time.Sleep(1 * time.Second)
+    fmt.Println("Main goroutine exiting")
+}
+In this example, the printNumbers function is run as a goroutine. The main goroutine continues to execute while the printNumbers goroutine runs in the background.
+Working with Channels
+To create a channel, you use the make function. Here is an example of creating a channel and sending and receiving values:
+package main
+
+import "fmt"
+
+func main() {
+    // Create a channel of integers
+    ch := make(chan int)
+
+    // Send a value to the channel
+    go func() {
+        ch <- 42
+    }()
+
+    // Receive a value from the channel
+    num := <-ch
+    fmt.Println(num)
+}
+In this example, we create an integer channel ch. A goroutine sends the value 42 to the channel, and the main goroutine receives the value from the channel.
+Common Practices
+Producer - Consumer Pattern
+The producer - consumer pattern is a common concurrency pattern where one or more goroutines (producers) generate data and send it to a channel, and one or more other goroutines (consumers) receive the data from the channel and process it.
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+// Producer function
+func producer(ch chan int) {
+    for i := 0; i < 5; i++ {
+        ch <- i
+        time.Sleep(200 * time.Millisecond)
+    }
+    close(ch)
+}
+
+// Consumer function
+func consumer(ch chan int) {
+    for num := range ch {
+        fmt.Println("Received:", num)
+    }
+}
+
+func main() {
+    ch := make(chan int)
+    go producer(ch)
+    consumer(ch)
+}
+In this example, the producer goroutine generates numbers and sends them to the channel, and the consumer goroutine receives the numbers from the channel and prints them.
+Fan - In and Fan - Out Patterns
+The fan - out pattern involves multiple goroutines reading from a single channel, while the fan - in pattern involves multiple channels sending data to a single channel.
+package main
+
+import (
+    "fmt"
+)
+
+// Fan - Out: Multiple goroutines read from a single channel
+func worker(id int, jobs <-chan int, results chan<- int) {
+    for j := range jobs {
+        fmt.Printf("Worker %d started job %d\n", id, j)
+        results <- j * 2
+        fmt.Printf("Worker %d finished job %d\n", id, j)
+    }
+}
+
+func main() {
+    const numJobs = 5
+    jobs := make(chan int, numJobs)
+    results := make(chan int, numJobs)
+
+    // Start up 3 workers
+    const numWorkers = 3
+    for w := 1; w <= numWorkers; w++ {
+        go worker(w, jobs, results)
+    }
+
+    // Send jobs to the jobs channel
+    for j := 1; j <= numJobs; j++ {
+        jobs <- j
+    }
+    close(jobs)
+
+    // Collect the results
+    for a := 1; a <= numJobs; a++ {
+        <-results
+    }
+    close(results)
+}
+Best Practices
+Error Handling in Goroutines
+When working with goroutines, itΓÇÖs important to handle errors properly. One way to do this is to pass an error channel between goroutines.
+package main
+
+import (
+    "fmt"
+    "time"
+)
+
+func doWork(id int, errChan chan<- error) {
+    time.Sleep(200 * time.Millisecond)
+    err := fmt.Errorf("error from worker %d", id)
+    errChan <- err
+}
+
+func main() {
+    errChan := make(chan error)
+    go doWork(1, errChan)
+    err := <-errChan
+    fmt.Println(err)
+}
+Channel Closure and Iteration
+Closing a channel indicates that no more values will be sent on it. You can use the range keyword to iterate over the values in a channel until it is closed.
+package main
+
+import "fmt"
+
+func main() {
+    ch := make(chan int)
+    go func() {
+        for i := 0; i < 3; i++ {
+            ch <- i
+        }
+        close(ch)
+    }()
+
+    for num := range ch {
+        fmt.Println(num)
+    }
+}
+Conclusion
+Goroutines and channels are powerful features in Go that make it easy to write concurrent programs. By understanding the fundamental concepts, usage methods, common practices, and best practices, you can leverage these features to build efficient and scalable applications. Goroutines allow you to run multiple tasks concurrently with minimal overhead, and channels provide a safe and efficient way to communicate and synchronize between goroutines.
+References
+
+The Go Programming Language Specification: https://golang.org/ref/spec
+Effective Go: https://golang.org/doc/effective_go.html
+Go by Example: https://gobyexample.com/
+Concurrency in Go by Katherine Cox - Buday: https://www.oreilly.com/library/view/concurrency-in-go/9781491941294/
+
+
+================================================================================
+END OF RESULTS
+================================================================================
